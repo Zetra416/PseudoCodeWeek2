@@ -1,0 +1,41 @@
+Pseudocode
+
+
+1. Newton Second Law
+  INIT m TO 600
+  INIT a TO 2
+  INIT res
+  COMPUTE res TO m x a
+
+2. Tahun Kabisat
+  INIT tahun
+
+  IF tahun % 4 = 0 AND tahun %100 != 0  OR  tahun % 4 = 0 AND tahun % 100 = 0 AND tahun % 400 = 0 THEN
+    PRINT ini tahun kabisat
+  ELSE
+    PRINT ini bukan tahun kabisat
+
+3. Laundry Day
+    INIT count TO 0
+    INIT jumlahPakaian TO 20
+
+    DO
+    INCREMENT count
+    PRINT jumlah pakaian adalah + count
+    WHILE count < 20
+    ENDWHILE
+    PRINT jumlah pakaian + count + saatnya mencuci
+
+
+4. Periksa Kuku
+    INIT jumlahSiswa TO 40;
+    INIT count =0;
+
+    DO
+    INCREMENT count
+    IF count = true THEN
+    PRINT kuku panjang harus dihukum
+    ELSE
+    PRINT kuku pendek, dipuji
+    WHILE count < jumlahSiswa
+    ENDWHILE
